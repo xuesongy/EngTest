@@ -1,0 +1,90 @@
+#hbody {
+	width: 90%;
+	height: 90%;
+}
+
+/* 单词翻译显示部分 */
+.htop {
+	width: 100%;
+	height: calc(100vh - 200px);
+}
+
+.htop div:nth-child(1), 
+.htop div:nth-child(2),
+.hbottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+/* 汉语部分 */
+.htop div:nth-child(1) {
+	float: left;
+	width: 50%;
+	height: 100%;
+	border-right: 10px solid rgba(52, 73, 95, 1);
+	border-image: linear-gradient(rgba(52, 73, 95, 1), transparent) 5 5;
+	font-size: 5em;
+}
+
+/* 英语翻译部分 */
+.htop div:nth-child(2) {
+	float: right;
+	width: 49%;
+	height: 100%;
+	font-size: 5em;
+	visibility: hidden;
+}
+
+/* 英语翻译部分span元素样式 */
+.htop div:nth-child(2) span {
+	display: block;
+	width: auto;
+	height: auto;
+	margin: 20px;
+	word-wrap: break-word; 
+	word-break: normal;
+	overflow: auto;
+	max-height: 100%;
+}
+
+/* 控制按钮部分 */
+.hbottom {
+	width: 100%;
+	height: calc(100vh - calc(100vh-200px));
+}
+
+.btn {
+	padding: 7px 20px;
+	margin-top: 20px;
+	background-image: linear-gradient(to bottom, #81ecec, #55efc4, #00b894);
+	border-radius: 30px;
+	cursor: default;
+	user-select: none;
+	color: black;
+}
+.show {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#KS {
+	padding: 9px 20px;
+	margin-left: 1em;
+	border: none;
+}
+
+.backIndex {
+	margin-top: 20px;
+	margin-right: 1em;
+}
+
+#back {
+	position: relative;
+	width: 30px;
+	height: 30px;
+}
+
+svg {
+	width: 30px;
+	height: 30px;
+}
