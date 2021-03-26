@@ -1,0 +1,38 @@
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	position: relative;
+	padding: 12px 30px;
+	margin: 15px;
+	background-color: #4d385b;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 6px;
+	border: 1px solid #ffffff;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+a:hover {
+	background-color: #ff6659;
+}
+
+a::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -50%;
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(60deg,transparent, transparent, #fff, transparent, transparent);
+    transition: left 0.5s;
+}
+
+a:hover::before {
+    left: 100%;
+
+}
