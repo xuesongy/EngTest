@@ -33,7 +33,7 @@ var a_HanYu = [
 var a_FanYi = [
 	[
 		"software", "hardware", "storage", "primary storage",
-		"Internet", "programmable", "protable", "channel",
+		"Internet", "programmable", "portable", "channel",
 		"abstract", "throughput", "topology", "communication",
 		"consume", "Distributed", "language", "platform",
 	],
