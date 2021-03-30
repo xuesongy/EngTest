@@ -59,7 +59,7 @@ var a_FanYi = [
 		"There exists a wide variety of educational applications available.Educational software is designed to teach one or more skills,such as reading, math, spelling, foreign languages, world geography,or to help prepare for some standardized test.",
 		"Electronic commerce is the use of information technology and electronic communication networks, to exchange business information and implement various transaction processing in an electronic and paperless form.",
 		"Word processing software allows you to use your computer to create, edit, store and print documents. You can easily insert, delete and move some words, sentences, and paragraphs - without using an eraser at ever.",
-		"What is a spreadsheet? The spreadsheet software takes its name from the columnar of an accountant's worksheet,it imitate the worksheet.A spreadsheet is a worksheet consisting of a collection of cells formed by the intersection of rows and columns.Each cell can store one piece of information: numbers, words and phrases, formulas",
+		"What is a spreadsheet? The spreadsheet software takes its name from the columnar of an accountant's worksheet,it imitates the worksheet.A spreadsheet is a worksheet consisting of a collection of cells formed by the intersection of rows and columns.Each cell can store one piece of information: numbers, words and phrases, formulas",
 		"Middleware is the software that connects software components or enterprise applications. Middleware makes it easier for software developers to perform communication and input/output, so they can focus on the specific purpose of their application. Typically, it supports complex, distributed business software applications."
 	]
 ]
