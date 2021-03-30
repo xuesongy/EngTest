@@ -125,6 +125,7 @@ function huanTi(k) {
 			selectdnum = 0;
 			visibleEn();
 			fuZhi(count);
+			setFontSize(55, 55)
 			break;
 		case "1":
 			selectdnum = 1;
