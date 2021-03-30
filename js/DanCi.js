@@ -123,14 +123,15 @@ function huanTi(k) {
 	switch(k) {
 		case "0":
 			selectdnum = 0;
+			count = 0;
+			setFontSize(55, 55);
 			visibleEn();
 			fuZhi(count);
-			setFontSize(55, 55)
 			break;
 		case "1":
 			selectdnum = 1;
 			count = 0;
-			setFontSize(55, 55)
+			setFontSize(55, 55);
 			visibleEn();
 			fuZhi(count);
 			break;
